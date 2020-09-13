@@ -1,8 +1,12 @@
-header {
-background-color: $redmarvel;
-color: white;
-display: flex;
-    a {
-        color: white;
+.header {
+    background-color: $redmarvel;
+    color: white;
+        &__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+    }
+        a {
+            color: white;
     }
 }
