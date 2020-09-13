@@ -1,3 +1,8 @@
+// Définition de la variable "fa-font-path" nécessaire au chargement des fichiers de font de FA
+// Comme elle est déclarée en premier, c'est cette valeur qui sera utilisée
+// et non celle définie dans le code source de FA
+$fa-font-path: '/../node_modules/font-awesome/fonts';
+
 // COLORS
 
 $redmarvel: #ED3C22;
@@ -13,10 +18,6 @@ $breakpoints: (
 
 // FONTS
 
-// Définition de la variable "fa-font-path" nécessaire au chargement des fichiers de font de FA
-// Comme elle est déclarée en premier, c'est cette valeur qui sera utilisée
-// et non celle définie dans le code source de FA
-$fa-font-path: '/../node_modules/font-awesome/fonts';
 $main-font: 'Marvel', sans-serif;
 $font-fallback: 'Kufam', cursive;
 
