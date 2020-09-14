@@ -1,4 +1,33 @@
 .footer {
     background-color: $customgrey;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.social-nav {
+    width: 5em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    i {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+}
+
+.copyright {
+    width: 20em;
+    text-align: center;
+    color: white;
+    &__title {
+        font-size: small;
+    }
+    &__text {
+        font-size: xx-small;
+    }
 }
