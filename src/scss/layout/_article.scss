@@ -1,0 +1,10 @@
+.post {
+    width: 60%;
+    margin: auto;
+    &__title {
+        font-weight: bold;
+        color: $redmarvel;
+        font-size: x-large;
+        margin-bottom: 0.5em;
+    }
+}
