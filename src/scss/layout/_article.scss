@@ -2,6 +2,7 @@
     width: 60%;
     margin: auto;
     padding: 1em;
+    border-bottom: dotted 1px $customgrey;
     &__title {
         font-weight: bold;
         color: $redmarvel;
@@ -17,5 +18,9 @@
     }
     &__content {
         margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    &__link {
+        color: $redmarvel;
     }
 }
