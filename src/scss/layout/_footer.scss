@@ -3,9 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
     padding: 1em;
     margin-top: 2em;
+    a {
+        color: rgb(78, 78, 78);
+    }
 }
 
 .social-nav {
@@ -21,7 +23,6 @@
 }
 
 .copyright {
-    width: 20em;
     text-align: center;
     color: white;
     &__title {
